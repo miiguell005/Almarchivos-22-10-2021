@@ -67,7 +67,7 @@ CREATE TABLE dbo.Product(
 GO
 
 CREATE TABLE dbo.OrderItem(
-	OrderItem INT IDENTITY(1,1) NOT NULL,
+	OrderItemId INT IDENTITY(1,1) NOT NULL,
 	OrderId INT NOT NULL,
 	ProductId INT NOT NULL,
 	UnitProce NVARCHAR(50) NOT NULL,
